@@ -1,0 +1,30 @@
+# Dependency directories
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+/pnpm-lock.yaml
+
+# Build output directories
+/dist
+/dist-ssr
+/coverage
+/build
+
+# Directories specific to your project's large file issues (Electron/Packaging)
+/release
+/out
+/electron-builder-cache
+
+# Local configuration and environment files
+.env
+.env.*
+.vscode/*
+!/.vscode/extensions.json
+.idea
+*.log
+
+# Other caches and generated files
+# Vite-specific cache
+.vite
